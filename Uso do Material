@@ -1,0 +1,13 @@
+Uso:
+
+Carregue o código no Arduino.
+Ligue a placa Arduino na fonte de alimentação.
+Posicione o sensor PIR no local desejado.
+A lâmpada acenderá automaticamente quando movimento for detectado no raio do sensor.
+Considerações:
+
+Ajuste o valor de delay() para definir o tempo que a lâmpada fica acesa.
+O sensor PIR possui um ângulo de detecção limitado.
+A sensibilidade do sensor PIR pode ser ajustada através do trimmer no sensor.
+Utilize lâmpadas de LED para maior economia de energia.
+Este projeto pode ser adaptado para outros fins, como acionar alarmes ou outros dispositivos.
