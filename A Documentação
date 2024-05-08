@@ -1,0 +1,14 @@
+Recursos Adicionais:
+
+Sensor de Presença PIR HC-SR501
+Módulo Relé 5V
+Tutoriais Arduino [URL inválido removido]
+MQTT (Message Queue Telemetry Transport): O maestro da orquestra, um protocolo leve e eficiente ideal para comunicação máquina-a-máquina (M2M). Sua beleza reside na simplicidade, com apenas três tipos de mensagens: 
+
+Publicação: Envia dados para um tópico específico, como um mensageiro entregando cartas.
+Broker MQTT: O centro de mensagens da rede, gerenciando as conexões entre publicadores e assinantes, como um correio centralizado que organiza a entrega de cartas.  
+
+Conclusão:
+
+Este projeto demonstra um método simples e eficaz de automação residencial utilizando Arduino. 
+Com a combinação de um sensor PIR e um módulo relé, é possível controlar lâmpadas e outros dispositivos automaticamente, proporcionando praticidade e economia de energia.
