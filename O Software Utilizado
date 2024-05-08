@@ -7,3 +7,22 @@ Componentes:
 1x Cabos jumper
 1x Protoboard 
 1x Atuador
+
+código:
+const int sensorPin = 7; // Pino do sensor PIR
+const int relayPin = 8; // Pino do módulo relé
+
+void setup() {
+  pinMode(sensorPin, INPUT); // Configura o pino do sensor como entrada
+  pinMode(relayPin, OUTPUT); // Configura o pino do relé como saída
+}
+
+void loop() {
+  int sensorValue = digitalRead(sensorPin); // Lê o valor do sensor PIR
+
+  if (sensorValue == HIGH) { // Se o sensor detectar movimento
+    digitalWrite(relayPin, HIGH); // Liga o relé, acendendo a lâmpada
+    delay(5000); // Tempo que a lâmpada fica acesa (em ms)
+    digitalWrite(relayPin, LOW); // Desliga o relé, apagando a lâmpada
+  }
+}
