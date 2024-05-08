@@ -1,0 +1,29 @@
+Funcionamento:
+
+O sensor PIR detecta a presença de movimento em um determinado raio e envia um sinal digital para o pino do Arduino.
+O Arduino recebe o sinal e verifica se está alto (HIGH). Se estiver, a presença é detectada e a lâmpada é ligada através do módulo relé.
+Quando o movimento se afasta do sensor, o sinal fica baixo (LOW) e a lâmpada é desligada.
+Montagem:
+
+1. Conexões com o Arduino:
+
+Sensor PIR:
+VCC -> Pino 5V do Arduino
+GND -> Pino GND do Arduino
+Out -> Pino Digital 7 do Arduino
+Módulo relé:
+VCC -> Pino 5V do Arduino
+GND -> Pino GND do Arduino
+IN -> Pino Digital 8 do Arduino
+2. Conexões com o módulo relé:
+
+Lâmpada:
+Carga positiva (+) -> Pino NO do relé
+Carga negativa (-) -> Fonte de alimentação da lâmpada
+Fonte de alimentação:
+Positivo (+) -> Pino VCC do módulo relé
+Negativo (-) -> Pino GND do módulo relé
+3. Conexões adicionais:
+
+Se utilizar um LED, conecte um resistor de 100Ω em série com o LED para limitar a corrente.
+Utilize a protoboard para facilitar as conexões, se desejar.
