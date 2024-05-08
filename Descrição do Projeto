@@ -1,0 +1,4 @@
+Introdução
+
+Este projeto demonstra a automação residencial básica utilizando um Arduino, um sensor de presença PIR e uma lâmpada. O sensor PIR detecta movimento e envia um sinal para o Arduino, que acende a lâmpada automaticamente.
+
